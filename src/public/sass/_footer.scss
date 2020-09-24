@@ -190,3 +190,111 @@ footer {
         }
     }
 }
+
+@media (min-width: 375px) and (max-width: 409px) {
+    footer {
+        margin-top: 800px;
+        .container {
+            display: block;
+
+            .footer__side--a,
+            .footer__side--b {
+                width: 360px;
+            }
+
+            .footer__side--b {
+                .footer__group {
+                    text-align: center;
+                    .footer__address {
+                        justify-content: space-evenly;
+                    }
+
+                    .footer__wp {
+                        .footer__wp--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+
+                    .footer__email {
+                        width: 60%;
+                        .footer__email--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 410px) and (max-width: 539px) {
+    footer {
+        margin-top: 800px;
+        .container {
+            display: block;
+
+            .footer__side--a,
+            .footer__side--b {
+                width: 390px;
+            }
+
+            .footer__side--b {
+                .footer__group {
+                    text-align: center;
+                    .footer__address {
+                        justify-content: space-evenly;
+                    }
+
+                    .footer__wp {
+                        .footer__wp--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+
+                    .footer__email {
+                        width: 60%;
+                        .footer__email--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    footer {
+        margin-top: 800px;
+        .container {
+            display: block;
+
+            .footer__side--a,
+            .footer__side--b {
+                width: 500px;
+            }
+
+            .footer__side--b {
+                .footer__group {
+                    text-align: center;
+                    .footer__address {
+                        justify-content: space-evenly;
+                    }
+
+                    .footer__wp {
+                        .footer__wp--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+
+                    .footer__email {
+                        width: 60%;
+                        .footer__email--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

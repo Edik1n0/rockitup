@@ -137,3 +137,129 @@
         }
     }
 }
+
+@media (min-width: 375px) and (max-width: 410px) {
+    .payment {
+        margin-top: 20px;
+        .medios {
+            .container {
+                .container {
+                    display: block;
+
+                    .medios__body {
+                        width: 100%;
+                    }
+
+                    .pagos__body {
+                        width: 100%;
+
+                        .pagos__body--content {
+                            padding-left: 0px;
+                            .pagos__content--item {
+                                height: 80px;
+                                width: 90%;
+                                display: block;
+
+                                .button__pay {
+                                    width: 80%;
+                                }
+
+                                .cripto__value {
+                                    display: block;
+                                    opacity: 100%;
+                                    text-align: center;
+                                    position: relative;
+                                    bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 411px) and (max-width: 539px) {
+    .payment {
+        margin-top: 20px;
+        .medios {
+            .container {
+                .container {
+                    display: block;
+
+                    .medios__body {
+                        width: 100%;
+                    }
+
+                    .pagos__body {
+                        width: 100%;
+
+                        .pagos__body--content {
+                            padding-left: 0px;
+                            .pagos__content--item {
+                                height: 80px;
+                                width: 90%;
+                                display: block;
+
+                                .button__pay {
+                                    width: 80%;
+                                }
+
+                                .cripto__value {
+                                    display: block;
+                                    opacity: 100%;
+                                    text-align: center;
+                                    position: relative;
+                                    bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .payment {
+        margin-top: 20px;
+        .medios {
+            .container {
+                .container {
+                    display: block;
+
+                    .medios__body {
+                        width: 100%;
+                    }
+
+                    .pagos__body {
+                        width: 100%;
+
+                        .pagos__body--content {
+                            padding-left: 0px;
+                            .pagos__content--item {
+                                height: 80px;
+                                width: 90%;
+                                display: block;
+
+                                .button__pay {
+                                    width: 80%;
+                                }
+
+                                .cripto__value {
+                                    display: block;
+                                    opacity: 100%;
+                                    text-align: center;
+                                    position: relative;
+                                    bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

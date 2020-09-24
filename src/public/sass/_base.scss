@@ -66,7 +66,31 @@ header {
     }
 }
 
-@media (min-width: 410px) and (max-width: 540px) {
+@media (min-width: 320px) and (max-width: 374px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 410px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 539px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
     .navbar-nav {
         text-align: center;
     }
