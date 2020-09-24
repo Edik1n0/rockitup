@@ -1,0 +1,102 @@
+.tienda {
+    margin-top: 60px;
+
+    .tienda__body {
+        display: block;
+
+        .container {
+            display: block;
+            justify-content: center;
+            margin-top: 40px;
+
+            .tienda__body--filtro {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+
+                .tienda__body--content {
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-around;
+                    .selector {
+                        .dropdown {
+                            .dropdown-menu {
+                                background: $Morado;
+                                .dropdown-item {
+                                    color: white;
+                                    &:hover {
+                                        background: $Morado;
+                                        transition: all 0.8s;
+                                        color: $MorO;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+
+            .tienda__body--products {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                .container {
+                    .product__row {
+                        margin-bottom: 40px;
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: space-around;
+
+                        .product__item {
+                            width: 20%;
+                            padding: 10px;
+                            justify-content: center;
+
+                            text-align: center;
+                            border-radius: 14px;
+                            -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.32);
+                            -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.32);
+                            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.32);
+
+                            .card {
+                                display: block;
+                                cursor: pointer;
+
+                                .card__img {
+                                    border-radius: 14px;
+
+                                    img {
+                                        width: 180px;
+                                        border-radius: 14px;
+                                    }
+                                }
+
+                                .buy__product {
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    width: 80%;
+
+                                    position: relative;
+                                    left: 20px;
+                                    .card__value {
+                                        p {
+                                            padding-top: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            &:hover {
+                                transition: all 0.8s;
+                                -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.37);
+                                -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.37);
+                                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.37);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
