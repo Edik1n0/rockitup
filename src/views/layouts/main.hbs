@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178923582-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-178923582-1');
+    </script>
     <meta property="og:title" content="Rock.it-up | Bisutería y Piedras preciosas en Colombia">
     <meta property="og:type" content="Web">
     <meta property="og:url" content="https://rockitup.herokuapp.com/">
@@ -11,7 +20,8 @@
     <meta property="og:local" content="es_LA">
     <title>Rock.it - Up | Bisutería y Joyería en Colombia</title>
     <meta name="description" content="Bisutería y Piedras preciosas de Colombia para el mundo entero">
-    <meta name="keywords" content="bisutería, joyería, joyas, alhajas, dijes, pendientes, piedras, piedras preciosas, rocas de colección">
+    <meta name="keywords"
+        content="bisutería, joyería, joyas, alhajas, dijes, pendientes, piedras, piedras preciosas, rocas de colección">
     <meta name="author" content="k1n0com">
     <meta name=”distribution” content=”global” />
     <meta name="Robots" content="all" />
@@ -26,7 +36,7 @@
     <header>
         {{>navigate }}
     </header>
-    
+
     {{{ body }}}
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -39,5 +49,6 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 </body>
-    {{>footer }}
+{{>footer }}
+
 </html>
