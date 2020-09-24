@@ -1,0 +1,230 @@
+@charset "UTF-8";
+* {
+  box-sizing: content-box;
+  font-family: "Abel", sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+/* Menú Nav */
+header .navbar {
+  background: #a78bb4;
+}
+header .navbar .container .navbar-brand img {
+  width: 160px;
+}
+header .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+header .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover {
+  transition: all 0.8s;
+  color: #6d5d74;
+}
+header .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu {
+  background: #a78bb4;
+  min-width: 2rem;
+}
+header .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: white;
+}
+header .navbar .container .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background: #a78bb4;
+  transition: all 0.8s;
+  color: #6d5d74;
+}
+
+@media (min-width: 410px) and (max-width: 540px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+/* Fin Menú Nav */
+/* Footer*/
+footer {
+  background: #a78bb4;
+  color: white;
+}
+footer .container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .container .footer__side--a {
+  width: 340px;
+}
+footer .container .footer__side--a .footer__group {
+  height: 136px;
+  margin-top: 20px;
+  display: block;
+}
+footer .container .footer__side--a .footer__group .footer__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+footer .container .footer__side--a .footer__group .footer__list .footer--item .footer--link {
+  color: white;
+}
+footer .container .footer__side--a .footer__group .footer__list .footer--item .footer--link:hover {
+  transition: all 0.6s;
+  color: #6d5d74;
+  text-decoration: none;
+}
+footer .container .footer__side--a .footer__group .footer__list--social {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+footer .container .footer__side--a .footer__group .footer__list--social .social__list {
+  margin: 6px;
+}
+footer .container .footer__side--a .footer__group .footer__list--social .social__list .social__link .social__img {
+  height: 50px;
+}
+footer .container .footer__side--a .footer__group .footer__list--social .social__list .social__link .social__img:hover {
+  transition: all 0.8s;
+  opacity: 80%;
+}
+footer .container .footer__side--b {
+  width: 340px;
+  text-align: right;
+}
+footer .container .footer__side--b .footer__group .footer__address {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+footer .container .footer__side--b .footer__group .footer__address .footer__address--img img {
+  height: 50px;
+}
+footer .container .footer__side--b .footer__group .footer__address .footer__address--link {
+  text-align: center;
+  width: 60%;
+}
+footer .container .footer__side--b .footer__group .footer__address .footer__address--link a {
+  color: white;
+}
+footer .container .footer__side--b .footer__group .footer__address .footer__address--link a:hover {
+  transition: all 0.6s;
+  color: #6d5d74;
+  text-decoration: none;
+}
+footer .container .footer__side--b .footer__group {
+  margin-top: 26px;
+}
+footer .container .footer__side--b .footer__group .footer__wp .footer__wp--content {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+footer .container .footer__side--b .footer__group .footer__wp .footer__wp--content .footer__wp--img img {
+  height: 40px;
+}
+footer .container .footer__side--b .footer__group .footer__wp .footer__wp--content .footer__wp--link {
+  width: 40%;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+footer .container .footer__side--b .footer__group .footer__wp .footer__wp--content .footer__wp--link a {
+  color: white;
+}
+footer .container .footer__side--b .footer__group .footer__wp .footer__wp--content .footer__wp--link a:hover {
+  transition: all 0.6s;
+  color: #6d5d74;
+  text-decoration: none;
+}
+footer .pie__footer {
+  text-align: center;
+  display: block;
+  border: 1px solid #a78bb4;
+}
+footer .pie__footer .logo__footer--link img {
+  width: 140px;
+}
+
+/* Fin Footer*/
+.home .container .home__intro {
+  margin-top: 60px;
+}
+.home .container .home__intro .container {
+  margin-top: 40px;
+}
+.home .container .home__intro .container .home__intro--body {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.home .container .home__intro .container .home__intro--body .intro__body--img {
+  width: 40%;
+}
+.home .container .home__intro .container .home__intro--body .intro__body--content {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home .container .home__intro .container .home__intro--body .intro__body--content a {
+  color: black;
+}
+.home .container .home__intro .container .home__intro--body .intro__body--content a:hover {
+  transition: all 0.6s;
+  color: #6d5d74;
+  text-decoration: none;
+}
+.home .container .home__high {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.home .container .home__high .container .home__high--body {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.home .container .home__high .container .home__high--body .hight__body--item {
+  text-align: center;
+}
+.home .container .home__high .container .home__high--body .hight__body--item .high--img a img {
+  width: 180px;
+  border-radius: 86px;
+}
+.home .container .home__high .container .home__high--body .hight__body--item .high--img a img:hover {
+  transition: all 0.8s;
+  border-radius: 90px;
+  -webkit-box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+}
+.home .container .home__high .container .home__high--body .hight__body--item .high--txt {
+  margin: 10px;
+}
+.home .container .home__high .container .home__high--body .hight__body--item .high--txt p {
+  opacity: 0%;
+}
+.home .container .home__high .container .home__high--body .hight__body--item:hover {
+  transition: all 0.8s;
+}
+.home .container .home__high .container .home__high--body .hight__body--item:hover .high--txt {
+  transition: all 0.8s;
+}
+.home .container .home__high .container .home__high--body .hight__body--item:hover .high--txt p {
+  transition: all 0.8s;
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

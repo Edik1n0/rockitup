@@ -1,0 +1,69 @@
+* {
+    box-sizing: content-box;
+    font-family: "Abel", sans-serif;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+/* Menú Nav */
+header {
+    .navbar {
+        background: $Morado;
+        .container {
+
+            .navbar-brand {
+                img {
+                    width: 160px;
+                }
+            }
+
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            color: white;
+                            &:hover {
+                                transition: all 0.8s;
+                                color: $MorO;
+                            }
+                        }
+
+                        .dropdown-menu {
+                            background: $Morado;
+                            min-width: 2rem;
+                            .dropdown-item {
+                                color: white;
+                                &:hover {
+                                    background: $Morado;
+                                    transition: all 0.8s;
+                                    color: $MorO;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 410px) and (max-width: 540px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+/* Fin Menú Nav */
