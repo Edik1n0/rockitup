@@ -1,0 +1,70 @@
+.about {
+    margin-top: 60px;
+    .container {
+        margin-top: 40px;
+        .about__body {
+            display: block;
+
+            .generic__group {
+                display: block;
+                padding: 20px 120px 20px 120px;
+                .generic__content {
+                    display: flex;
+                    padding: 20px 20px 20px 80px;
+                    margin: 20px;
+
+                    .generic__content--img {
+                        margin-right: 40px;
+                        img {
+                            width: 320px;
+                        }
+                    }
+
+                    .generic__content--all {
+                        width: 320px;
+
+                        .generic__content--link {
+                            a {
+                                color: black;
+                                font-weight: bolder;
+                                &:hover {
+                                    text-decoration: none;
+                                    transition: all 0.6s;
+                                    color: $MorO;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .generic__content--b {
+                    text-align: right;
+                    display: flex;
+                    padding: 20px 70px 20px 20px;
+                    margin: 20px;
+                
+                    .generic__content--img {
+                        margin-left: 40px;
+                        img {
+                            width: 320px;
+                        }
+                    }
+                
+                    .generic__content--link {
+                        a {
+                            color: black;
+                            font-weight: bolder;
+                            &:hover {
+                                text-decoration: none;
+                                transition: all 0.6s;
+                                color: $MorO;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
