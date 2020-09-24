@@ -83,3 +83,50 @@
         }
     }
 }
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .home {
+        .container {
+            .home__intro {
+                .container {
+                    .home__intro--body {
+                        display: block;
+                        .intro__body--img {
+                            img {
+                                width: 260px;
+                            }
+                        }
+
+                        .intro__body--content {
+                            width: 100%;
+                            margin: 10px;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+
+            .home__high {
+                margin-top: 20px;
+                .home__high--title {
+                    text-align: center;
+                }
+                .container {
+                    .home__high--body {
+                        display: block;
+
+                        .hight__body--item {
+                            .high--txt {
+                                display: block;
+
+                                p {
+                                    opacity: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -189,6 +189,33 @@ footer .pie__footer .logo__footer--link img {
 }
 
 /* Fin Footer*/
+@media (min-width: 320px) and (max-width: 374px) {
+  footer {
+    margin-top: 800px;
+  }
+  footer .container {
+    display: block;
+  }
+  footer .container .footer__side--a,
+footer .container .footer__side--b {
+    width: 300px;
+  }
+  footer .container .footer__side--b .footer__group {
+    text-align: center;
+  }
+  footer .container .footer__side--b .footer__group .footer__address {
+    justify-content: space-evenly;
+  }
+  footer .container .footer__side--b .footer__group .footer__wp .footer__wp--content {
+    justify-content: space-evenly;
+  }
+  footer .container .footer__side--b .footer__group .footer__email {
+    width: 60%;
+  }
+  footer .container .footer__side--b .footer__group .footer__email .footer__email--content {
+    justify-content: space-evenly;
+  }
+}
 .payment {
   margin-top: 140px;
 }
@@ -261,6 +288,38 @@ footer .pie__footer .logo__footer--link img {
   height: 120px;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .payment {
+    margin-top: 20px;
+  }
+  .payment .medios .container .container {
+    display: block;
+  }
+  .payment .medios .container .container .medios__body {
+    width: 100%;
+  }
+  .payment .medios .container .container .pagos__body {
+    width: 100%;
+  }
+  .payment .medios .container .container .pagos__body .pagos__body--content {
+    padding-left: 0px;
+  }
+  .payment .medios .container .container .pagos__body .pagos__body--content .pagos__content--item {
+    height: 80px;
+    width: 90%;
+    display: block;
+  }
+  .payment .medios .container .container .pagos__body .pagos__body--content .pagos__content--item .button__pay {
+    width: 80%;
+  }
+  .payment .medios .container .container .pagos__body .pagos__body--content .pagos__content--item .cripto__value {
+    display: block;
+    opacity: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+  }
+}
 .inner img {
   width: 100%;
 }
@@ -472,6 +531,35 @@ footer .pie__footer .logo__footer--link img {
 .home .container .home__high .container .home__high--body .hight__body--item:hover .high--txt p {
   transition: all 0.8s;
   opacity: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .home .container .home__intro .container .home__intro--body {
+    display: block;
+  }
+  .home .container .home__intro .container .home__intro--body .intro__body--img img {
+    width: 260px;
+  }
+  .home .container .home__intro .container .home__intro--body .intro__body--content {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+  .home .container .home__high {
+    margin-top: 20px;
+  }
+  .home .container .home__high .home__high--title {
+    text-align: center;
+  }
+  .home .container .home__high .container .home__high--body {
+    display: block;
+  }
+  .home .container .home__high .container .home__high--body .hight__body--item .high--txt {
+    display: block;
+  }
+  .home .container .home__high .container .home__high--body .hight__body--item .high--txt p {
+    opacity: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

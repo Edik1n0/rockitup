@@ -154,3 +154,39 @@ footer {
     }
 }
 /* Fin Footer*/
+
+@media (min-width: 320px) and (max-width: 374px) {
+    footer {
+        margin-top: 800px;
+        .container {
+            display: block;
+
+            .footer__side--a,
+            .footer__side--b {
+                width: 300px;
+            }
+
+            .footer__side--b {
+                .footer__group {
+                    text-align: center;
+                    .footer__address {
+                        justify-content: space-evenly;
+                    }
+
+                    .footer__wp {
+                        .footer__wp--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+
+                    .footer__email {
+                        width: 60%;
+                        .footer__email--content {
+                            justify-content: space-evenly;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
