@@ -695,6 +695,20 @@ footer .container .footer__side--b {
     width: 100%;
   }
 }
+.footer_users {
+  width: 100%;
+  background: #6d5d74;
+}
+.footer_users .container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.repo__productos {
+  margin: 60px 10px 60px 10px;
+}
+
 /* Tienda */
 .tienda {
   margin-top: 60px;

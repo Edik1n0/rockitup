@@ -1,0 +1,9 @@
+.footer_users {
+    width: 100%;
+    background: $MorO;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
+    }
+}

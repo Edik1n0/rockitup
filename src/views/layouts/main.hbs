@@ -26,6 +26,7 @@
     <meta name=”distribution” content=”global” />
     <meta name="Robots" content="all" />
     <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/fontello.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
@@ -34,14 +35,13 @@
 
 <body>
     <header>
-        {{>navigate }}
+        {{> navigate }}
     </header>
 
-    {{{ body }}}
-
-    <div class="payment">
-        {{>medios }}
-    </div>
+    <main>
+        {{> messages }}
+        {{{ body }}}
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -54,6 +54,5 @@
         crossorigin="anonymous"></script>
         <script src="/public/filtro.js"></script>
 </body>
-{{>footer }}
 
 </html>
