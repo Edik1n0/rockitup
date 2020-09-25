@@ -843,6 +843,10 @@ footer .container .footer__side--b {
     margin-bottom: 20px;
   }
 }
+main .carousel {
+  bottom: 60px;
+}
+
 .home .container .home__intro {
   margin-top: 60px;
 }
