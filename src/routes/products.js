@@ -7,23 +7,23 @@ router.get('/products/add', (req, res) => {
     res.render('products/new-product');
 });
 
-router.post('/products/new-product', async (req,res) => {
+router.post('/products/new-product', async (req, res) => {
     const { producto, valor } = req.body;
     const errors = [];
-    if(!producto) {
-        errors.push({text: 'Por favor, indique el nombre del producto'});
+    if (!producto) {
+        errors.push({ text: 'Por favor, indique el nombre del producto' });
     }
     if (!valor) {
-        errors.push({text: 'Por favor, indique el valor del producto'});
+        errors.push({ text: 'Por favor, indique el valor del producto' });
     }
-    if(errors.length > 0) {
+    if (errors.length > 0) {
         res.render('products/new-product', {
             errors,
             producto,
             valor
         });
     } else {
-        const newProduct = new Product({producto, valor}); // Almacenar en base de datos
+        const newProduct = new Product({ producto, valor }); // Almacenar en base de datos
         await newProduct.save();
         req.flash('success_msg', 'Producto agregado correctamente');
         res.redirect('/products');
@@ -32,17 +32,19 @@ router.post('/products/new-product', async (req,res) => {
 
 router.get('/products', async (req, res) => {
     const productos = await Product.find() // Consultar de la base de datos
-    res.render('products/all-products', { productos })
+    res.render('products/all-products', { productos });
 });
+
+// Editar
 
 router.get('/products/edit/:id', async (req, res) => {
     const product = await Product.findById(req.params.id)
-    res.render('products/edit-product', {product});
+    res.render('products/edit-product', { product });
 });
 
 router.put('/products/edit-product/:id', async (req, res) => {
     const { producto, valor } = req.body;
-    await Product.findByIdAndUpdate(req.params.id, {producto, valor});
+    await Product.findByIdAndUpdate(req.params.id, { producto, valor });
     req.flash('success_msg', 'Producto actualizado correctamente');
     res.redirect('/products');
 });
